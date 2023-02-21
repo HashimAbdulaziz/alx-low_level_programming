@@ -6,6 +6,18 @@
  * Return: nothing
  */
 
+void print_alphabet(void)
+{
+	int n;
+
+	for (n = 'a'; n <= 'z'; n++)
+		_putchar(n);
+	_putchar('\n');
+}
+
+
+
+
 void print_alphabet_x10(void)
 {
 	int i;
