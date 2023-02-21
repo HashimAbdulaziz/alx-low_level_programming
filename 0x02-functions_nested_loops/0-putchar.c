@@ -3,7 +3,7 @@
  *
  * Auther: Hashim Abdulaziz
  */
-#include<stdio.h>
+#include "main.h"
 
 /**
  * main - about functions
@@ -17,9 +17,9 @@ int main(void)
 	int i;
 
 	for(i = 0; i < 8; i++)
-		putchar(s[i]);
+		_putchar(s[i]);
 
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
