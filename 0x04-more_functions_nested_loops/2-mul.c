@@ -1,11 +1,13 @@
-#include"main.h"
-/*
- * mul - function gets mul of a and b
+#include "main.h"
+
+/**
+ * mul - function gets multiplication of towe numbers
  *
- * @a:first input number
+ * @a: first input
+ *
  * @b: second input
  *
- * Return: number
+ * Return: result of multiplication
  */
 
 int mul(int a, int b)
